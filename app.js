@@ -70,7 +70,7 @@ function SaveReadme(uniqueAccepted){
     let lines = [
     "## Codeforces Submissions\n",
 
-    "*Auto-generated with ❤️ using [Codeforces Submission Fetcher](https://github.com/Andrew-Velox/cf-submission-fetcher)*\n",
+    "*Auto-generated with ❤️ using [Codeforces Submission Fetcher](https://github.com/Andrew-Velox/Codeforces-Submission-Fetcher-Extension)*\n",
 
     "## Introduction\n",
 
