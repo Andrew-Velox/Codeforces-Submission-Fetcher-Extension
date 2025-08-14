@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CF Fetcher</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="p-4 w-72 bg-white">
+
+        <h3 class="text-xl font-bold text-center mb-4">CF Fetcher</h3>
+        <form id="cfForm" class="space-y-3"></form>
+            <div class="mb-3">
+                <input id="handle" placeholder="Codeforces Handle" class="w-full px-3 py-2 border border-gray-300 rounded-lg foucs:outline-none foucs:ring-2 focus:ring-blue-400">
+
+            </div>
+            <div class="mb-3">
+                <input id="apiKey" placeholder="API Key" class="w-full px-3 py-2 border border-gray-300 rounded-lg foucs:outline-none foucs:ring-2 focus:ring-blue-400">
+
+            </div>
+
+            <div class="mb-4">
+                <input id="SecretApiKey" placeholder="Secret API Key" class="w-full px-3 py-2 border border-gray-300 rounded-lg foucs:outline-none foucs:ring-2 focus:ring-blue-400">
+
+            </div>
+            <p id="status" class="text-sm text-gray-600 mb-2"></p>
+            <button type="submit" id="generate" class="w-full py-2 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-600 transition mb-2">Generate</button>
+            <button type="button" id="openInTab" class="w-full py-2 bg-gray-500 text-white font-bold rounded-lg hover:bg-gray-600 transition text-sm">Open in New Tab</button>
+        </form>
+
+
+    </div>
+    
+ 
+    
+    <script src="app.js"></script>
+    <script src="tailwind.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "name":"CF Fetcher",
+    "version": "1.0",
+    "description": "Fetch Your Own Codeforces Accepted Sumbmissions and generate a README.md file",
+    "permissions": ["storage","downloads","tabs"],
+
+    "action":{
+        "default_popup": "index.html",
+        "default_icon":"icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
