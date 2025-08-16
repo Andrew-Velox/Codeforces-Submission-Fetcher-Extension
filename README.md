@@ -43,8 +43,8 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 4. **Generate**: Click "Generate" to create your README.md
 5. **Download**: The file will download automatically
 
-### Demo
-[![Demo Video](https://img.youtube.com/vi/BSlqpXNy2SA/0.jpg)](https://www.youtube.com/watch?v=BSlqpXNy2SA)
+## Demo Video
+[![Demo Video](https://img.youtube.com/vi/BSlqpXNy2SA/0.jpg)](https://www.youtube.com/watch?v=ffDfqiJUlMs)
 
 ---
 
