@@ -44,7 +44,7 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 5. **Download**: The file will download automatically
 
 ## Demo Video
-[![Demo Video](https://img.youtube.com/vi/BSlqpXNy2SA/0.jpg)](https://www.youtube.com/watch?v=ffDfqiJUlMs)
+[![Demo Video](https://img.youtube.com/vi/ffDfqiJUlMs/0.jpg)](https://www.youtube.com/watch?v=ffDfqiJUlMs)
 
 ---
 
