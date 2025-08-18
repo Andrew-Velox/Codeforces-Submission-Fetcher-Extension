@@ -274,21 +274,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Restore data when popup opens
     restoreData();
 
-    // Add functionality for "Open in New Tab" button
-    const openInTabButton = document.getElementById("openInTab");
-    if (openInTabButton) {
-        openInTabButton.addEventListener('click', function() {
-            // Save current data before opening new tab
-            saveData();
-            
-            if (typeof chrome !== 'undefined' && chrome.tabs) {
-                chrome.tabs.create({
-                    url: chrome.runtime.getURL('index.html')
-                });
-            } else {
-                // Fallback: open in new window if chrome.tabs is not available
-                window.open('index.html', '_blank', 'width=400,height=600');
-            }
-        });
-    }
 });

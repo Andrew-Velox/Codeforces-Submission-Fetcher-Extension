@@ -3,7 +3,7 @@
     "name": "CF Fetcher",
     "version": "1.0.0",
     "description": "Fetch your Codeforces accepted submissions and generate a README.md file for your GitHub repository",
-    "permissions": ["storage", "downloads", "tabs"],
+    "permissions": ["storage", "downloads"],
 
     "action": {
         "default_popup": "index.html",
