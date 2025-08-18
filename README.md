@@ -16,7 +16,7 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 
 - **Auto README Generation**: Creates a markdown table with your accepted submissions
 - **Smart Filtering**: Only includes your latest accepted solution for each problem
-- **Problem Details**: Shows difficulty ratings, tags, and submission links
+- **Problem Details**: Shows difficulty ratings, tags, submission links and submission Time
 - **Easy Setup**: Just enter your Codeforces credentials once
 
 ---
@@ -70,7 +70,7 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 ## Support
 
 - [GitHub Issues](https://github.com/Andrew-Velox/Codeforces-Submission-Fetcher-Extension/issues) for bugs and features
-- [Demo Video](https://www.youtube.com/watch?v=BSlqpXNy2SA) for usage help
+- [Demo Video](https://www.youtube.com/watch?v=ffDfqiJUlMs) for usage help
 
 If this helps you, please ⭐ star the repository!
 
