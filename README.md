@@ -5,7 +5,8 @@
   CF Fetcher
 </h1>
 
-<!-- <a href="https://addons.mozilla.org/en-US/firefox/addon/carrot/"><img src="https://i.imgur.com/WJ9Fhop.png" alt="Mozilla Add-ons" height="48"></a>&emsp;<a href="https://chrome.google.com/webstore/detail/carrot/gakohpXNy2SA"><img src="https://i.imgur.com/iswHnpJ.png" alt="Chrome Web Store" height="48"></a> -->
+<!-- <a href="https://addons.mozilla.org/en-US/firefox/addon/carrot/"><img src="https://i.imgur.com/WJ9Fhop.png" alt="Mozilla Add-ons" height="48"></a>&emsp; -->
+<a href="https://chromewebstore.google.com/detail/pehfoogjijedipaehbibmjcajbcbimef?utm_source=item-share-cb"><img src="https://i.imgur.com/iswHnpJ.png" alt="Chrome Web Store" height="48"></a>
 
 A Chrome extension that fetches your Codeforces accepted submissions and generates a beautiful README.md file and you can upload it to your github repository.
 
@@ -24,14 +25,11 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 ## Installation
 
 ### Chrome/Edge
-1. Clone or download this repository
-2. Go to `chrome://extensions/`
-3. Enable "Developer mode"
-4. Click "Load unpacked" and select the folder
-5. Pin the extension to your toolbar
-
+ - Install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/pehfoogjijedipaehbibmjcajbcbimef?utm_source=item-share-cb) or search [CF Fetcher](https://chromewebstore.google.com/detail/pehfoogjijedipaehbibmjcajbcbimef?utm_source=item-share-cb)
+ - Pin the extension to your toolbar for quick access
+<!-- 
 ### Firefox
-- Install from [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/cf-fetcher/)
+- Install from [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/cf-fetcher/) -->
 
 ---
 
@@ -44,7 +42,24 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 5. **Download**: The file will download automatically
 
 ## Demo Video
+
 [![Demo Video](https://img.youtube.com/vi/ffDfqiJUlMs/0.jpg)](https://www.youtube.com/watch?v=ffDfqiJUlMs)
+
+## Screenshots
+
+<!-- 
+![Screenshot 1](https://raw.githubusercontent.com/Andrew-Velox/Codeforces-Submission-Fetcher-Extension/main/images/image.png)
+![Screenshot 2](https://raw.githubusercontent.com/Andrew-Velox/Codeforces-Submission-Fetcher-Extension/main/images/Screenshot%202025-08-19%20205819.png) -->
+<!-- ![Screenshot 3](./images/Screenshot 2025-08-14 202642.png) -->
+<p>
+  <img src="images/image.png" alt="Main UI" width="500">
+</p>
+<p>
+  <img src="images/Screenshot 2025-08-19 205819.png" alt="Screenshot 1" width="500">
+</p>
+<!-- <p>
+  <img src="images/Screenshot 2025-08-14 202642.png" alt="Screenshot 2" width="500">
+</p> -->
 
 ---
 
