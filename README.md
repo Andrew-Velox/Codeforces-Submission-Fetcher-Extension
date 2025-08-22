@@ -1,6 +1,6 @@
 <h1>
   <sub>
-    <img src="icon.png" alt="CF Fetcher logo" height="38">
+    <img src="images/CF_Fetcher_icn.png" alt="CF Fetcher logo" height="38">
   </sub>
   CF Fetcher
 </h1>
