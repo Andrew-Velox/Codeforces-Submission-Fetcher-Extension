@@ -57,6 +57,12 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 <p>
   <img src="images/Screenshot 2025-08-19 205819.png" alt="Screenshot 1" width="500">
 </p>
+<p>
+  <img src="images/Screenshot 2025-08-22 205116.png" alt="Screenshot 1" width="500">
+</p>
+<p>
+  <img src="images/Screenshot 2025-08-22 205300.png" alt="Screenshot 1" width="500">
+</p>
 <!-- <p>
   <img src="images/Screenshot 2025-08-14 202642.png" alt="Screenshot 2" width="500">
 </p> -->
