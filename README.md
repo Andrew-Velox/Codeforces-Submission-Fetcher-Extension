@@ -73,6 +73,14 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 
 ---
 
+## What's New (v1.1.0)
+
+- Cleaner codebase: internal logic refactored to avoid repetition and improve maintainability
+- Per-rating README.md files: When you generate the ZIP, each rating folder contains its own README listing all problems for that rating in a markdown table (same format as the main README)
+- All previous features and formats are preserved
+
+---
+
 ## Contributing
 
 1. Fork the repository

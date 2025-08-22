@@ -33,3 +33,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tailwind CSS styling
 - Chrome APIs: Storage, Downloads, Runtime
 - MIT License
+
+## [1.1.0] - 2025-08-22
+
+### Changed
+- Refactored code to eliminate repeated logic and improve maintainability
+- Centralized README formatting logic for main and per-rating files
+
+### Added
+- Per-rating README.md files are now generated inside each rating folder in the ZIP
+- Each README lists all problems for that rating in a markdown table, matching the main README format
+
+### Fixed
+- Minor syntax errors and improved code clarity
