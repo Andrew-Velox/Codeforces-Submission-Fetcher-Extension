@@ -81,7 +81,7 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 | 582 | [B - Robot Program](https://codeforces.com/contest/2070/problem/B) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/2070/submission/332250946) | `brute force` `implementation` `math` `*1100` | Aug 03 2025, 22:12 |
 | 581 | [B - Perfecto](https://codeforces.com/contest/2071/problem/B) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/2071/submission/332230979) | `brute force` `constructive algorithms` `greedy` `math` `*1100` | Aug 03 2025, 19:42 |
 
-
+[👉 Demo Repository: See a real example of generated submissions](https://github.com/Andrew-Velox/my-codeforces-submissions)
 ---
 
 ## What's New (v1.1.0)
