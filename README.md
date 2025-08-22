@@ -43,7 +43,12 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 
 ## Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/ffDfqiJUlMs/0.jpg)](https://www.youtube.com/watch?v=ffDfqiJUlMs)
+
+<p>
+  <a href="https://www.youtube.com/watch?v=ffDfqiJUlMs" target="_blank">
+    <img src="https://img.youtube.com/vi/ffDfqiJUlMs/0.jpg" alt="Demo Video">
+  </a>
+</p>
 
 ## Screenshots
 
@@ -52,16 +57,16 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 ![Screenshot 2](https://raw.githubusercontent.com/Andrew-Velox/Codeforces-Submission-Fetcher-Extension/main/images/Screenshot%202025-08-19%20205819.png) -->
 <!-- ![Screenshot 3](./images/Screenshot 2025-08-14 202642.png) -->
 <p>
-  <img src="images/image.png" alt="Main UI" width="500">
+  <img src="images/image.png" alt="Main UI">
 </p>
 <p>
-  <img src="images/Screenshot 2025-08-19 205819.png" alt="Screenshot 1" width="500">
+  <img src="images/Screenshot 2025-08-19 205819.png" alt="Screenshot 1">
 </p>
 <p>
-  <img src="images/Screenshot 2025-08-22 205116.png" alt="Screenshot 1" width="500">
+  <img src="images/Screenshot 2025-08-22 205116.png" alt="Screenshot 1" >
 </p>
 <p>
-  <img src="images/Screenshot 2025-08-22 205300.png" alt="Screenshot 1" width="500">
+  <img src="images/Screenshot 2025-08-22 205300.png" alt="Screenshot 1" >
 </p>
 <!-- <p>
   <img src="images/Screenshot 2025-08-14 202642.png" alt="Screenshot 2" width="500">
