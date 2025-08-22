@@ -182,15 +182,20 @@ function formatReadme(subs) {
         const tags = problem.tags || [];
         const language = sub.programmingLanguage || 'Unknown';
         const date = new Date(sub.creationTimeSeconds * 1000);
-        const options = {
-            month: 'short',
-            day: '2-digit',
-            year: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit',
-            hour12: false
-        };
-        const timestamp = date.toLocaleDateString('en-US', options).replace(',', '');
+
+        // Format date as 'Jul/10/2024 02:35 PM' (12-hour)
+        const month = date.toLocaleString('en-US', { month: 'short' });
+        const day = String(date.getDate()).padStart(2, '0');
+        const year = date.getFullYear();
+        let hour = date.getHours();
+        const minute = String(date.getMinutes()).padStart(2, '0');
+        const ampm = hour >= 12 ? 'PM' : 'AM';
+        hour = hour % 12;
+        hour = hour ? hour : 12; // the hour '0' should be '12'
+        const hourStr = String(hour).padStart(2, '0');
+        const timestamp = `${month}/${day}/${year} ${hourStr}:${minute} ${ampm}`;
+
+        
         const problemUrl = `https://codeforces.com/contest/${contestsId}/problem/${problemIndex}`;
         const submissionUrl = `https://codeforces.com/contest/${contestsId}/submission/${sub.id}`;
         const allTags = [...(problem.tags || [])];
