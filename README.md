@@ -5,19 +5,18 @@
   CF Fetcher
 </h1>
 
-<!-- <a href="https://addons.mozilla.org/en-US/firefox/addon/carrot/"><img src="https://i.imgur.com/WJ9Fhop.png" alt="Mozilla Add-ons" height="48"></a>&emsp; -->
 <a href="https://chromewebstore.google.com/detail/pehfoogjijedipaehbibmjcajbcbimef?utm_source=item-share-cb"><img src="https://i.imgur.com/iswHnpJ.png" alt="Chrome Web Store" height="48"></a>
 
-A Chrome extension that fetches your Codeforces accepted submissions and generates a beautiful README.md file and you can upload it to your github repository.
-
+A Chrome extension that fetches your Codeforces accepted submissions and generates a ZIP file containing rating-wise README.md files. You can easily upload these to your GitHub repository to track and showcase your problem-solving achievements.
 
 ---
 
 ## Features
 
-- **Auto README Generation**: Creates a markdown table with your accepted submissions
+- **Auto README Generation**: Creates markdown tables with your accepted submissions
+- **Rating-wise Filtering**: Submissions are grouped by problem rating, each with its own README.md
 - **Smart Filtering**: Only includes your latest accepted solution for each problem
-- **Problem Details**: Shows difficulty ratings, tags, submission links and submission Time
+- **Problem Details**: Shows difficulty ratings, tags, submission links, and submission time
 - **Easy Setup**: Just enter your Codeforces credentials once
 
 ---
@@ -25,11 +24,8 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 ## Installation
 
 ### Chrome/Edge
- - Install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/pehfoogjijedipaehbibmjcajbcbimef?utm_source=item-share-cb) or search [CF Fetcher](https://chromewebstore.google.com/detail/pehfoogjijedipaehbibmjcajbcbimef?utm_source=item-share-cb)
- - Pin the extension to your toolbar for quick access
-<!-- 
-### Firefox
-- Install from [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/cf-fetcher/) -->
+- Install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/pehfoogjijedipaehbibmjcajbcbimef?utm_source=item-share-cb) or search **CF Fetcher**
+- Pin the extension to your toolbar for quick access
 
 ---
 
@@ -38,17 +34,22 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 1. **Get API Keys**: Go to [Codeforces Settings → API](https://codeforces.com/settings/api) and generate keys
 2. **Open Extension**: Click the CF Fetcher icon in your browser
 3. **Enter Details**: Add your handle, API key, and secret key
-4. **Generate**: Click "Generate" to create your README.md
+4. **Generate**: Click "Generate" to create your ZIP file
 5. **Download**: The file will download automatically
+6. **Unzip**: Extract the contents of the ZIP file
+7. **Upload**: Upload the extracted files to your GitHub repository
+
+---
 
 ## Demo Video
 
-
 <p>
-  <a href="https://www.youtube.com/watch?v=ffDfqiJUlMs" target="_blank">
-    <img src="https://img.youtube.com/vi/ffDfqiJUlMs/0.jpg" alt="Demo Video">
+  <a href="https://www.youtube.com/watch?v=yuKUnclnSl4" target="_blank">
+    <img src="https://img.youtube.com/vi/yuKUnclnSl4/0.jpg" alt="Demo Video">
   </a>
 </p>
+
+---
 
 ## Screenshots
 
@@ -78,10 +79,10 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 
 | # | Title | Solution | Tags | Submitted |
 |:-:|-------|----------|------|-----------|
-| 582 | [B - Robot Program](https://codeforces.com/contest/2070/problem/B) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/2070/submission/332250946) | `brute force` `implementation` `math` `*1100` | Aug 03 2025, 22:12 |
-| 581 | [B - Perfecto](https://codeforces.com/contest/2071/problem/B) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/2071/submission/332230979) | `brute force` `constructive algorithms` `greedy` `math` `*1100` | Aug 03 2025, 19:42 |
+| 659 | [C - Removal of Unattractive Pairs](https://codeforces.com/contest/1907/problem/C) | [C++20 (GCC 13-64)](https://codeforces.com/contest/1907/submission/289768292) | `constructive algorithms` `greedy` `math` `strings` `*1200` | Nov/03/2024 06:18 PM |
+| 658 | [C - Anya and 1100](https://codeforces.com/contest/2036/problem/C) | [C++20 (GCC 13-64)](https://codeforces.com/contest/2036/submission/289576902) | `brute force` `implementation` `*1100` | Nov/02/2024 10:30 PM |
 
-[👉 Demo Repository: See a real example of generated submissions](https://github.com/Andrew-Velox/my-codeforces-submissions)
+[👉 Demo Repository](https://github.com/Andrew-Velox/my-codeforces-submissions)
 ---
 
 ## What's New (v1.1.0)
@@ -104,7 +105,7 @@ A Chrome extension that fetches your Codeforces accepted submissions and generat
 ## Support
 
 - [GitHub Issues](https://github.com/Andrew-Velox/Codeforces-Submission-Fetcher-Extension/issues) for bugs and features
-- [Demo Video](https://www.youtube.com/watch?v=ffDfqiJUlMs) for usage help
+- [Demo Video](https://www.youtube.com/watch?v=yuKUnclnSl4) for usage help
 
 If this helps you, please ⭐ star the repository!
 
